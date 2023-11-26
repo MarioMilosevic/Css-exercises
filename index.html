@@ -13,13 +13,19 @@
         display: grid;
         /* grid-template-columns: 30% 20% 50%; */
         /* grid-template-columns: 1fr 2fr 1fr; */
-        grid-template-columns: repeat(9, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, minmax(200px,auto));
+        grid-gap: 10px 10px;
+        /* grid-column-gap: 10px;
+        grid-row-gap: 10px; */
+        /* grid-auto-rows: minmax(200px, auto); */
         max-width: 960px;
         margin: 0 auto;
       }
       #content div {
         background-color: #3bbced;
         padding: 30px;
+        /* margin: 20px; */
       }
       #content div:nth-child(even) {
         background-color: #777;
@@ -30,7 +36,7 @@
     <div id="content">
       <div>1</div>
       <div>2</div>
-      <div>3</div>
+      <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis at, repellendus atque in blanditiis, repellat deleniti laboriosam incidunt quo corrupti commodi eveniet distinctio quia delectus laudantium, ad illum! Mollitia, eaque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugit rerum consequatur nihil accusantium quia ipsum vero, ad odit quisquam temporibus quis optio cupiditate asperiores error? Recusandae soluta non quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. In minima, officia asperiores at culpa molestias sunt eos necessitatibus vel facere a iure quia repellendus, suscipit quae et placeat saepe! Mollitia.</div>
       <div>4</div>
       <div>5</div>
       <div>6</div>
